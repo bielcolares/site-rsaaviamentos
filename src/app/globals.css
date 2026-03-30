@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-red: #cd5542;
+  --color-brand-green-dark: #4a7647;
+  --color-brand-green-light: #bace76;
+  --color-brand-cream: #fdf1da;
+  --color-brand-brown: #4a7647; /* Substituído o Marrom pelo Verde Escuro da Marca como cor principal forte */
+}
+
+:root {
+  --background: #fdf1da;
+  --foreground: #3b2b2b;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  scroll-behavior: smooth;
+}
+
+/* Animations that emulate the smooth AOS Fade-up */
+.reveal-up {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 1s cubic-bezier(0.2, 0.8, 0.2, 1), transform 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+  will-change: opacity, transform;
+}
+.reveal-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.delay-100 { transition-delay: 100ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-300 { transition-delay: 300ms; }
