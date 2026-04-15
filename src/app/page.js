@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
 import CatalogoHome from '../components/CatalogoHome';
-import ContactForm from '../components/ContactForm';
+import Testimonial from '../components/Testimonial';
 import Footer from '../components/Footer';
 import WhatsAppFloating from '../components/WhatsAppFloating';
 
@@ -49,8 +49,8 @@ export default function Home() {
         {/* Catálogo Home */}
         <CatalogoHome />
 
-        {/* Formulário de Contato Direto na Home (Estratégia Landing Page) */}
-        <ContactForm />
+        {/* Depoimentos e Avaliação do Google */}
+        <Testimonial />
       </main>
 
       {/* Rodapé Corporativo */}
