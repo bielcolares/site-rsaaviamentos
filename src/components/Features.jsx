@@ -4,10 +4,10 @@ export default function Features() {
   return (
     <section
       id="conceito"
-      className="w-full bg-[#fdf1da] pt-8 pb-24 md:pb-32 overflow-hidden font-sans border-b border-black/5"
+      className="w-full bg-[#fdf1da] pt-6 pb-16 md:pb-20 overflow-hidden font-sans border-b border-black/5"
     >
       {/* Transição Suave do Fundo Superior */}
-      <div className="w-full h-2 bg-gradient-to-r from-[#cd5542] via-[#edaa68] to-[#bace76] opacity-30 mb-24"></div>
+      <div className="w-full h-2 bg-gradient-to-r from-[#cd5542] via-[#edaa68] to-[#bace76] opacity-30 mb-14"></div>
 
       <div className="container mx-auto px-6 md:px-12 flex flex-col lg:flex-row items-start justify-between gap-16 lg:gap-32">
         {/* Título Monumental — mais contido e elegante */}

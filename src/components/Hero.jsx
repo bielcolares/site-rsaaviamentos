@@ -3,7 +3,7 @@ import React from 'react';
 export default function Hero() {
   return (
     <section
-      className="relative w-full h-auto pt-28 pb-6 overflow-hidden text-brand-brown"
+      className="relative w-full h-auto pt-20 pb-4 overflow-hidden text-brand-brown"
       id="hero"
     >
       {/* Container Fundo Limpo e Quente */}
@@ -12,10 +12,10 @@ export default function Hero() {
       {/* Luz orgânica de estúdio */}
       <div className="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] bg-white rounded-full blur-[140px] opacity-80 z-[-1]"></div>
 
-      <div className="container mx-auto px-6 md:px-12 relative z-10 flex flex-col xl:flex-row items-center justify-between gap-12 xl:gap-6 h-full mt-8 md:mt-24">
+      <div className="container mx-auto px-6 md:px-12 relative z-10 flex flex-col xl:flex-row items-center justify-between gap-8 xl:gap-6 h-full mt-4 md:mt-12">
         {/* Esquerda - O Logo Completo como H1 Visual */}
         <div className="flex-1 w-full max-w-2xl xl:max-w-xl text-left flex flex-col justify-center relative">
-          <div className="reveal-up relative mb-6">
+          <div className="reveal-up relative mb-4">
             <img
               src="/images/logo-completo.png"
               alt="R.SÁ Aviamentos"

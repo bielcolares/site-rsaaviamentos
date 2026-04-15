@@ -32,10 +32,10 @@ export default function CatalogoHome() {
   return (
     <section
       id="catalogo"
-      className="py-24 md:py-32 bg-[#fdf1da] relative overflow-hidden flex flex-col items-center"
+      className="py-16 md:py-20 bg-[#fdf1da] relative overflow-hidden flex flex-col items-center"
     >
       {/* Título de Referência - Espaço Monumental acima das caixas */}
-      <div className="text-center mb-20 px-6 z-10 w-full">
+      <div className="text-center mb-12 px-6 z-10 w-full">
         <h2 className="reveal-up text-4xl md:text-[5rem] font-[family-name:var(--font-script)] font-bold text-brand-green-dark mb-4 tracking-tight leading-tight">
           Nossa Coleção
         </h2>

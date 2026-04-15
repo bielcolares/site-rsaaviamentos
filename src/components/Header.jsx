@@ -30,7 +30,7 @@ export default function Header() {
     >
       <div className="container mx-auto px-4 sm:px-6 md:px-12 flex items-center justify-between">
         {/* Navegação Esquerda */}
-        <nav className="hidden lg:flex items-center gap-8 font-medium">
+        <nav className="hidden lg:flex items-center gap-10 font-medium">
           <Link href="/" className="hover:text-amber-500 transition-colors text-sm tracking-wide">
             Inicial
           </Link>
@@ -61,35 +61,17 @@ export default function Header() {
           </Link>
         </div>
 
-        {/* Links Externos - Redes e Lojas (Desktop) */}
-        <div className="hidden lg:flex items-center gap-6 lg:gap-8 ml-auto font-sans font-bold uppercase tracking-wider text-[11px] text-[#fdf1da]">
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-amber-300 hover:scale-105 transition-all"
+        {/* CTA Desktop */}
+        <div className="hidden lg:flex items-center">
+          <Link
+            href="/atendimento"
+            className="bg-white/10 hover:bg-white/20 border border-white/20 text-[#fdf1da] text-[11px] font-bold uppercase tracking-widest px-6 py-2.5 rounded-full transition-all hover:scale-105"
           >
-            Instagram
-          </a>
-          <a
-            href="https://www.mercadolivre.com.br/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-[#ffe600] flex items-center gap-2 hover:scale-105 transition-all"
-          >
-            Mercado Livre
-          </a>
-          <a
-            href="https://shopee.com.br/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-white flex items-center gap-2 hover:scale-105 transition-all text-[#ffe8df]"
-          >
-            Oficial Shopee
-          </a>
+            Fale Conosco
+          </Link>
         </div>
 
-        {/* Mobile Menu Button - Left Aligned to not conflict with center absolute logo */}
+        {/* Mobile Menu Button */}
         <div className="lg:hidden flex items-center w-full justify-start z-10 relative">
           <button onClick={toggleMenu} className="text-[#fdf1da] focus:outline-none">
             {isOpen ? <X className="h-7 w-7" /> : <Menu className="h-7 w-7" />}
@@ -100,7 +82,7 @@ export default function Header() {
       {/* Mobile Menu Dropdown */}
       {isOpen && (
         <div className="lg:hidden bg-brand-red/95 backdrop-blur-md border-t border-brand-cream/10 absolute top-full left-0 w-full shadow-xl">
-          <div className="px-4 py-6 flex flex-col space-y-4">
+          <div className="px-6 py-8 flex flex-col space-y-5">
             <Link
               href="/"
               onClick={toggleMenu}
@@ -122,35 +104,14 @@ export default function Header() {
             >
               Atendimento
             </Link>
-
-            <hr className="border-brand-cream/10 my-4" />
-
-            <div className="flex flex-col space-y-3 font-bold uppercase tracking-wider text-sm">
-              <a
-                href="https://www.instagram.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-amber-300"
-              >
-                Instagram Oficial
-              </a>
-              <a
-                href="https://www.mercadolivre.com.br/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#ffe600]"
-              >
-                Loja Mercado Livre
-              </a>
-              <a
-                href="https://shopee.com.br/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#ffe8df]"
-              >
-                Oficial Shopee
-              </a>
-            </div>
+            <hr className="border-brand-cream/10 my-2" />
+            <Link
+              href="/atendimento"
+              onClick={toggleMenu}
+              className="inline-block bg-white/10 border border-white/20 text-brand-cream text-sm font-bold uppercase tracking-wider px-6 py-3 rounded-full text-center"
+            >
+              Fale Conosco
+            </Link>
           </div>
         </div>
       )}
