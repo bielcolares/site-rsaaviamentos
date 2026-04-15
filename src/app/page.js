@@ -1,8 +1,12 @@
 'use client';
 import { useEffect } from 'react';
 import Header from '../components/Header';
-import Features from '../components/Features';
+import Hero from '../components/Hero';
+import Metrics from '../components/Metrics';
+import CategoriesHome from '../components/CategoriesHome';
+import HowItWorks from '../components/HowItWorks';
 import Testimonial from '../components/Testimonial';
+import CtaHome from '../components/CtaHome';
 import Footer from '../components/Footer';
 import WhatsAppFloating from '../components/WhatsAppFloating';
 
@@ -38,11 +42,23 @@ export default function Home() {
       <Header />
 
       <main className="flex-grow w-full">
-        {/* Nova Primeira Dobra de Impacto - Sem imagens, focada no texto */}
-        <Features />
+        {/* Bloco 1: Hero Principal */}
+        <Hero />
 
-        {/* Depoimentos e Avaliação do Google */}
+        {/* Bloco 2: Métricas / Confiança */}
+        <Metrics />
+
+        {/* Bloco 3: Categorias Principais */}
+        <CategoriesHome />
+
+        {/* Bloco 4: Como Comprar (Atacado) */}
+        <HowItWorks />
+
+        {/* Bloco 5: Depoimentos Reais */}
         <Testimonial />
+
+        {/* Bloco 6: CTA Final */}
+        <CtaHome />
       </main>
 
       {/* Rodapé Corporativo */}

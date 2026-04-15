@@ -20,8 +20,8 @@ export default function Footer() {
               />
             </div>
             <p className="text-white/70 font-semibold text-sm leading-relaxed pr-4">
-              Equilíbrio diário para confecções orgânicas, indústrias de larga escala e ateliês
-              criativos.
+              Aviamentos para confecção, ateliês e indústria têxtil — há mais de 20 anos no Brás,
+              SP.
             </p>
           </div>
 
@@ -34,6 +34,12 @@ export default function Footer() {
               className="hover:text-amber-500 hover:tracking-wide w-max transition-all text-base font-semibold"
             >
               Inicial
+            </Link>
+            <Link
+              href="/sobre"
+              className="hover:text-amber-500 hover:tracking-wide w-max transition-all text-base font-semibold"
+            >
+              Sobre nós
             </Link>
             <Link
               href="/catalogo"
@@ -59,7 +65,15 @@ export default function Footer() {
             >
               sac@rsaaviamentos.com.br
             </a>
-            <span className="text-base font-semibold text-white/80">+55 (11) 94610-3562</span>
+            <span className="text-base font-semibold text-white/80">+55 (11) 2692-0623</span>
+            <a
+              href="https://wa.me/5511946103562"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base font-semibold text-green-400 hover:text-green-300 transition-colors flex items-center gap-2"
+            >
+              WhatsApp: (11) 94610-3562
+            </a>
             <span className="text-sm font-semibold text-white/50 mt-2 block leading-relaxed">
               São Paulo - SP <br /> Enviamos para todo Brasil.
             </span>

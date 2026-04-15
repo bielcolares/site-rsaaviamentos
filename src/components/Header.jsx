@@ -35,6 +35,12 @@ export default function Header() {
             Inicial
           </Link>
           <Link
+            href="/sobre"
+            className="hover:text-amber-500 transition-colors text-sm tracking-wide"
+          >
+            Sobre
+          </Link>
+          <Link
             href="/catalogo"
             className="hover:text-amber-500 transition-colors text-sm tracking-wide"
           >
@@ -89,6 +95,13 @@ export default function Header() {
               className="block text-lg font-medium text-brand-cream hover:text-amber-500 rounded-md"
             >
               Inicial
+            </Link>
+            <Link
+              href="/sobre"
+              onClick={toggleMenu}
+              className="block text-lg font-medium text-brand-cream hover:text-amber-500 rounded-md"
+            >
+              Sobre
             </Link>
             <Link
               href="/catalogo"
