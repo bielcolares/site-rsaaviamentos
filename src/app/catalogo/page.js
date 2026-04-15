@@ -173,7 +173,7 @@ export default function CatalogoPage() {
     <div className="min-h-screen bg-brand-cream flex flex-col font-sans overflow-x-hidden">
       <Header />
 
-      <main className="flex-grow w-full pt-28 pb-20">
+      <main className="flex-grow w-full pt-48 pb-20">
         <div className="container mx-auto px-6 md:px-12">
           {/* Header */}
           <div className="text-center mb-16">

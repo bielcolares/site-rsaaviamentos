@@ -1,9 +1,7 @@
 'use client';
 import { useEffect } from 'react';
 import Header from '../components/Header';
-import Hero from '../components/Hero';
 import Features from '../components/Features';
-import CatalogoHome from '../components/CatalogoHome';
 import Testimonial from '../components/Testimonial';
 import Footer from '../components/Footer';
 import WhatsAppFloating from '../components/WhatsAppFloating';
@@ -40,14 +38,8 @@ export default function Home() {
       <Header />
 
       <main className="flex-grow w-full">
-        {/* Primeira Dobra de Impacto */}
-        <Hero />
-
-        {/* Seção de Benefícios e Diferenciais (Conceito) */}
+        {/* Nova Primeira Dobra de Impacto - Sem imagens, focada no texto */}
         <Features />
-
-        {/* Catálogo Home */}
-        <CatalogoHome />
 
         {/* Depoimentos e Avaliação do Google */}
         <Testimonial />

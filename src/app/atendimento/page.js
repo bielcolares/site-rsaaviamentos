@@ -10,7 +10,7 @@ export default function AtendimentoPage() {
     <div className="min-h-screen bg-brand-cream flex flex-col font-sans overflow-x-hidden">
       <Header />
 
-      <main className="flex-grow w-full pt-32 pb-24">
+      <main className="flex-grow w-full pt-48 pb-24">
         <div className="container mx-auto px-6 md:px-12 text-center mb-16">
           <h1 className="text-4xl md:text-[4rem] font-[family-name:var(--font-script)] font-bold text-brand-green-dark mb-4 tracking-tight leading-tight">
             Atendimento R.SÁ

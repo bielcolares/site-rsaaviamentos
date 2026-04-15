@@ -3,13 +3,10 @@ import React from 'react';
 export default function Features() {
   return (
     <section
-      id="conceito"
-      className="w-full bg-[#fdf1da] pt-6 pb-16 md:pb-20 overflow-hidden font-sans border-b border-black/5"
+      id="hero-conceito"
+      className="w-full bg-[#fdf1da] pt-36 md:pt-48 pb-16 md:pb-20 overflow-hidden font-sans border-b border-black/5"
     >
-      {/* Transição Suave do Fundo Superior */}
-      <div className="w-full h-2 bg-gradient-to-r from-[#cd5542] via-[#edaa68] to-[#bace76] opacity-30 mb-14"></div>
-
-      <div className="container mx-auto px-6 md:px-12 flex flex-col lg:flex-row items-start justify-between gap-16 lg:gap-32">
+      <div className="container mx-auto px-6 md:px-12 flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-24">
         {/* Título Monumental — mais contido e elegante */}
         <div className="flex-1 w-full max-w-2xl">
           <h2 className="reveal-up text-[2.5rem] md:text-[3.5rem] lg:text-[4rem] text-brand-green-dark font-[family-name:var(--font-script)] font-bold leading-[1.2] tracking-tight max-w-lg">
@@ -19,7 +16,7 @@ export default function Features() {
         </div>
 
         {/* Copy Comercial à Direita — diferencial da loja */}
-        <div className="flex-1 w-full lg:mt-[120px] xl:max-w-lg text-left flex flex-col gap-8">
+        <div className="flex-1 w-full xl:max-w-lg text-left flex flex-col gap-8">
           <p className="reveal-up delay-100 text-brand-green-dark/90 text-lg md:text-xl font-bold leading-[1.8] font-sans">
             Na R.SÁ Aviamentos, cada fio conta uma história de qualidade. Trabalhamos com{' '}
             <strong className="text-brand-red">
