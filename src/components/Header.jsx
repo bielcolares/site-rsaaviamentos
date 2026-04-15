@@ -46,12 +46,6 @@ export default function Header() {
           >
             Catálogo
           </Link>
-          <Link
-            href="/atendimento"
-            className="hover:text-amber-500 transition-colors text-sm tracking-wide"
-          >
-            Atendimento
-          </Link>
         </nav>
 
         {/* Logo Completo no Centro */}
@@ -109,13 +103,6 @@ export default function Header() {
               className="block text-lg font-medium text-brand-cream hover:text-amber-500 rounded-md"
             >
               Catálogo
-            </Link>
-            <Link
-              href="/atendimento"
-              onClick={toggleMenu}
-              className="block text-lg font-medium text-brand-cream hover:text-amber-500 rounded-md"
-            >
-              Atendimento
             </Link>
             <hr className="border-brand-cream/10 my-2" />
             <Link

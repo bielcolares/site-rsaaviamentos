@@ -8,8 +8,8 @@ const CATEGORIAS = [
     id: 'lastex',
     nome: 'Lastex',
     emoji: '🧶',
-    cor: 'bg-[#eaf1e7]',
-    corBorda: 'border-brand-green-dark/20',
+    cor: 'bg-white/50',
+    corBorda: 'border-brand-green-dark/10',
     corLabel: 'text-brand-green-dark',
     produtos: [
       {
@@ -42,9 +42,9 @@ const CATEGORIAS = [
     id: 'botoes',
     nome: 'Botões',
     emoji: '🔘',
-    cor: 'bg-[#f5e1dd]',
-    corBorda: 'border-brand-red/20',
-    corLabel: 'text-brand-red',
+    cor: 'bg-white/50',
+    corBorda: 'border-brand-green-dark/10',
+    corLabel: 'text-brand-green-dark',
     produtos: [
       {
         nome: 'Botão Bombê PL Cardenas Branco',
@@ -70,9 +70,9 @@ const CATEGORIAS = [
     id: 'elastico',
     nome: 'Elásticos',
     emoji: '📏',
-    cor: 'bg-[#fffbe6]',
-    corBorda: 'border-amber-400/30',
-    corLabel: 'text-amber-700',
+    cor: 'bg-white/50',
+    corBorda: 'border-brand-green-dark/10',
+    corLabel: 'text-brand-green-dark',
     produtos: [
       {
         nome: 'Elástico Zanotti Savana 20',
@@ -98,9 +98,9 @@ const CATEGORIAS = [
     id: 'ilhos',
     nome: 'Ilhós',
     emoji: '⭕',
-    cor: 'bg-[#e8e8e8]',
-    corBorda: 'border-gray-400/30',
-    corLabel: 'text-gray-600',
+    cor: 'bg-white/50',
+    corBorda: 'border-brand-green-dark/10',
+    corLabel: 'text-brand-green-dark',
     produtos: [
       {
         nome: 'Ilhós Baxmann Ferro N° 45',
@@ -120,9 +120,9 @@ const CATEGORIAS = [
     id: 'cordao',
     nome: 'Cordões',
     emoji: '〰️',
-    cor: 'bg-[#f0ebe3]',
-    corBorda: 'border-brand-brown/20',
-    corLabel: 'text-brand-brown',
+    cor: 'bg-white/50',
+    corBorda: 'border-brand-green-dark/10',
+    corLabel: 'text-brand-green-dark',
     produtos: [
       {
         nome: 'Cordão Aliança A6 Cru',
@@ -148,9 +148,9 @@ const CATEGORIAS = [
     id: 'argola',
     nome: 'Meia Argola',
     emoji: '⚙️',
-    cor: 'bg-[#fefce8]',
-    corBorda: 'border-yellow-400/30',
-    corLabel: 'text-yellow-700',
+    cor: 'bg-white/50',
+    corBorda: 'border-brand-green-dark/10',
+    corLabel: 'text-brand-green-dark',
     produtos: [
       {
         nome: 'Meia Argola Zamac Dourada',
