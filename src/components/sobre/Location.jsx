@@ -14,7 +14,7 @@ export default function Location() {
             <div>
               <h3 className="font-bold text-xl text-[#3b2b2b] mb-3">R.SÁ Aviamentos</h3>
               <p className="text-brand-green-dark/80 font-medium leading-relaxed">
-                R. Dr. Carlos Botelho, 97
+                R. Dr. Carlos Botelho, 95
                 <br />
                 Brás — São Paulo, SP
                 <br />
@@ -27,18 +27,18 @@ export default function Location() {
                 <span className="text-lg">📞</span> (11) 2692-0623
               </span>
               <a
-                href="https://wa.me/5511946103562"
+                href="https://wa.me/5511996315891"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-brand-green-dark/90 font-bold hover:text-green-600 transition-colors"
               >
-                <span className="text-lg">📱</span> (11) 94610-3562
+                <span className="text-lg">📱</span> (11) 99631-5891
               </a>
               <a
                 href="mailto:rsa@rsaaviamentos.com.br"
                 className="flex items-center gap-3 text-brand-green-dark/90 font-bold hover:text-brand-red transition-colors break-all"
               >
-                <span className="text-lg">✉️</span> rsa@rsaaviamentos.com.br
+                <span className="text-lg">✉️</span> aviamentosrsa@gmail.com
               </a>
             </div>
 

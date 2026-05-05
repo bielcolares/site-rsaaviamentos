@@ -60,19 +60,19 @@ export default function Footer() {
               Atendimento
             </h5>
             <a
-              href="mailto:sac@rsaaviamentos.com.br"
+              href="mailto:aviamentosrsa@gmail.com"
               className="text-base font-semibold hover:text-amber-500 transition-colors"
             >
-              sac@rsaaviamentos.com.br
+              aviamentosrsa@gmail.com
             </a>
             <span className="text-base font-semibold text-white/80">+55 (11) 2692-0623</span>
             <a
-              href="https://wa.me/5511946103562"
+              href="https://wa.me/5511996315891"
               target="_blank"
               rel="noopener noreferrer"
               className="text-base font-semibold text-green-400 hover:text-green-300 transition-colors flex items-center gap-2"
             >
-              WhatsApp: (11) 94610-3562
+              WhatsApp: (11) 99631-5891
             </a>
             <span className="text-sm font-semibold text-white/50 mt-2 block leading-relaxed">
               São Paulo - SP <br /> Enviamos para todo Brasil.

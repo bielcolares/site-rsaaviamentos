@@ -37,7 +37,7 @@ export default function HowItWorks() {
             Atendemos confecções, ateliês e revendedores de aviamentos em todo o Brasil.
           </p>
           <a
-            href="https://wa.me/5511946103562"
+            href="https://wa.me/5511996315891"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#25D366] text-white hover:bg-[#20bd5a] px-8 py-4 rounded-full font-bold text-sm uppercase tracking-widest transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"

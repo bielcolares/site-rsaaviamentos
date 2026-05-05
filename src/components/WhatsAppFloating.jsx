@@ -3,7 +3,7 @@ import React from 'react';
 export default function WhatsAppFloating() {
   return (
     <a
-      href="https://wa.me/5511946103562?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20da%20R.S%C3%81%20Aviamentos."
+      href="https://wa.me/5511996315891?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20da%20R.S%C3%81%20Aviamentos."
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex items-center justify-center group"
