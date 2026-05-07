@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
         className={`${fontNunito.variable} ${fontCinzel.variable} font-sans antialiased text-brand-green-dark bg-brand-cream flex flex-col min-h-screen`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
