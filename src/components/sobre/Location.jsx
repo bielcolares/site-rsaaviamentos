@@ -35,7 +35,7 @@ export default function Location() {
                 <span className="text-lg">📱</span> (11) 99631-5891
               </a>
               <a
-                href="mailto:rsa@rsaaviamentos.com.br"
+                href="mailto:aviamentosrsa@gmail.com"
                 className="flex items-center gap-3 text-brand-green-dark/90 font-bold hover:text-brand-red transition-colors break-all"
               >
                 <span className="text-lg">✉️</span> aviamentosrsa@gmail.com

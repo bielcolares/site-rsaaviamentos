@@ -60,7 +60,7 @@ export default function AtendimentoPage() {
                   <div>
                     <h4 className="font-extrabold text-gray-800">E-mail Corporativo</h4>
                     <p className="text-gray-600 mt-1 font-medium text-sm">
-                      rsa@rsaaviamentos.com.br
+                      aviamentosrsa@gmail.com
                     </p>
                   </div>
                 </div>
